@@ -56,7 +56,6 @@ header{
 nav{
     width: 71%;
     max-width: 1140px;
-    /* border: 1px solid red; */
     margin: 0 auto;
     display: flex;
     justify-content: space-between;

@@ -1,0 +1,108 @@
+@media screen and (max-width:576px) {
+
+    
+    header{
+    padding-top: 50px;
+    background:  url(../images/header_bg.png) ,#FFF8F3;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    padding-top: 50px;
+    }
+    nav , #banner{
+
+        flex-wrap: wrap;
+
+    }
+
+    nav{
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    }
+
+    #banner{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+    #banner .banner-content{
+
+        width: 100%;
+    }
+    #banner .banner-content h1{
+
+    font-size: 59px;
+    
+    }
+    #banner .banner-content .btn-content{
+
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        gap: 10px;
+    }
+    #banner .banner-content .btn {
+
+        font-size: 12px;
+    }
+    #banner  .banner-image img {
+        width: 100%;
+        
+    }
+    #about .about-container  {
+    width: 100%;
+    padding: 2%;
+    background-color: #FFF8F3;
+    /* padding: 131px 156px; */
+    }
+    #about .about-info {
+  
+        display: block;
+        
+    
+    }
+    
+    .about-info .info-card p{
+
+    margin-top: 20px;
+    }
+    #skills ,#resume ,footer {
+    padding-top: 60px;
+}
+    #skills .skills-container{
+        width: 95%;
+    
+        }
+    #skills .skills-container .skills-box , .footer-container{
+
+        flex-direction: column;
+    }
+    .skills-box .skills-card {
+    max-width: 100%;
+    }
+    #resume .resume-container {
+    flex-direction: column;
+    max-width: 95%;
+    align-items: center;
+    margin-top: 60px;
+    }
+    footer .footer-container {
+    width: 95%;
+    
+    margin: 0 auto;
+    display: flex;
+    gap: 116px;
+}
+    .footer-container form input[ type="text"], .footer-container form textarea {
+
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    color: #757575;
+}
+    
+    
+}
